@@ -1,0 +1,87 @@
+html, body{
+	font-size: 80%;
+	font-family: 'Courier New', Courier, monoscape;
+	letter-spacing: 0.15em;
+	background-image: url('pianobg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#page{
+	max-width: 700px;
+    height: 750px;
+	margin: 10px auto 10px auto;
+	padding:20px 20px 20px 20px;
+	border: 5px double #f2f1f1;
+	background-color: transparent;
+   backdrop-filter: blur(8px);
+}
+i{
+  display: block;
+  padding: 10px;
+  transition: all 0.3s ease;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  text-shadow:0 0 3px rgb(255, 255, 255);
+}
+i:hover{
+    background:linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255));
+    border-radius: 5px;
+}
+
+
+#logo img{
+	width: 250px;
+	height: 200px;
+	margin-left:225px;
+	margin-right: 300px;
+	margin-bottom: 20px;
+	border: 3px solid white;
+}
+
+p img{
+	width:500px ;
+	height: 300px;
+	border: 3px solid white;
+	
+
+}
+
+
+ul{
+	width: 570px;
+	padding: 15px;
+	margin: 0px auto 0px auto;
+	border-top: 2px solid #000;
+	border-bottom: 1px solid #ffffff;
+	text-align: center;
+}
+
+
+li{ 	
+	display: inline;
+	margin: 0px 3px;
+}
+
+
+p{ 
+	text-align: center;
+	width: 600px;
+	margin: 20px auto 20px auto;
+	font-weight: normal;
+	font-size: 20px;
+	text-shadow:0 0 2px whitesmoke;
+	color: whitesmoke;
+}
+
+
+a{
+	color: #000000;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 0px 18px 5px 18px;
+}
+
+
+
